@@ -78,21 +78,5 @@
     "occupation": "Cashier",
     "location": "O-Town, California",
     "chosen": "yes"
-  },
-  {
-    "id": 11,
-    "name": "Captain Planet",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth",
-    "chosen": "yes"
-  },
-  {
-    "id": 12,
-    "name": "Ickis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump",
-    "chosen": "yes"
   }
 ]
