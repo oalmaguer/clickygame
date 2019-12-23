@@ -16,6 +16,7 @@ class App extends Component {
     if (this.state.score > this.state.finalScore) {
       this.setState({ finalScore: this.state.score }, function() {
         console.log(this.state.finalScore);
+        this.setState({ score: 0 });
       });
     }
     this.state.friends.forEach(friend => {
@@ -23,20 +24,19 @@ class App extends Component {
     });
     alert(`Game Over`);
     this.setState({ score: 0 });
-    this.state.friends.sort(() => Math.random() - 0.5);
     return true;
   };
 
   clickCount = id => {
-    let friendState = this.state.friends;
-    friendState.find((i, y) => {
+    this.state.friends.find((i, y) => {
       if (i.id === id) {
         if (friends[y].count === 0) {
           friends[y].count = friends[y].count + 1;
           this.setState({ score: this.state.score + 1 }, function() {
             console.log(this.state.score);
           });
-          friendState.sort(() => Math.random() - 0.5);
+          this.state.friends.sort(() => Math.random() - 0.5);
+
           return true;
         } else {
           this.finishGame();
@@ -65,6 +65,8 @@ class App extends Component {
     return (
       <Wrapper>
         <Title>Friends List</Title>
+
+        <h1 className="text-center">Your score is {this.state.score}</h1>
         {this.state.friends.map(friend => (
           <FriendCard
             clickCount={this.clickCount}
