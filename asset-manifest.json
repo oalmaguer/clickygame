@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.f9740d80.chunk.css",
-    "main.js": "/static/js/main.1011e869.chunk.js",
-    "main.js.map": "/static/js/main.1011e869.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.7b0edef7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.7b0edef7.js.map",
-    "static/js/2.1feb1ce0.chunk.js": "/static/js/2.1feb1ce0.chunk.js",
-    "static/js/2.1feb1ce0.chunk.js.map": "/static/js/2.1feb1ce0.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.46a1bffb36f7a06399d272c899e18303.js": "/precache-manifest.46a1bffb36f7a06399d272c899e18303.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.f9740d80.chunk.css.map": "/static/css/main.f9740d80.chunk.css.map",
-    "static/js/2.1feb1ce0.chunk.js.LICENSE": "/static/js/2.1feb1ce0.chunk.js.LICENSE"
+    "main.css": "/clickygame/static/css/main.f9740d80.chunk.css",
+    "main.js": "/clickygame/static/js/main.1011e869.chunk.js",
+    "main.js.map": "/clickygame/static/js/main.1011e869.chunk.js.map",
+    "runtime-main.js": "/clickygame/static/js/runtime-main.76c8915d.js",
+    "runtime-main.js.map": "/clickygame/static/js/runtime-main.76c8915d.js.map",
+    "static/js/2.1feb1ce0.chunk.js": "/clickygame/static/js/2.1feb1ce0.chunk.js",
+    "static/js/2.1feb1ce0.chunk.js.map": "/clickygame/static/js/2.1feb1ce0.chunk.js.map",
+    "index.html": "/clickygame/index.html",
+    "precache-manifest.072ac3f6ab67cc98f1c34d5ee2c03456.js": "/clickygame/precache-manifest.072ac3f6ab67cc98f1c34d5ee2c03456.js",
+    "service-worker.js": "/clickygame/service-worker.js",
+    "static/css/main.f9740d80.chunk.css.map": "/clickygame/static/css/main.f9740d80.chunk.css.map",
+    "static/js/2.1feb1ce0.chunk.js.LICENSE": "/clickygame/static/js/2.1feb1ce0.chunk.js.LICENSE"
   },
   "entrypoints": [
-    "static/js/runtime-main.7b0edef7.js",
+    "static/js/runtime-main.76c8915d.js",
     "static/js/2.1feb1ce0.chunk.js",
     "static/css/main.f9740d80.chunk.css",
     "static/js/main.1011e869.chunk.js"
